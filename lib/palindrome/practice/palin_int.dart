@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main (){
-
 print("get palindrome int user");
 
 print("Enter a no :");

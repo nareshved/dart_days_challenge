@@ -34,7 +34,7 @@ class Sme extends Process {
   // sqr
   @override
   int add (int a, int b) {
-    int sum = super.add(a, b);
+    int sum = super.add(a, b); // used parent class var
     int sqr = pow(sum, 4.0).toInt();
     return sqr;
   }
